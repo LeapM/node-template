@@ -1,5 +1,7 @@
 import express from 'express'
 import dotenv from 'dotenv'
+//make regenerratorruntime globally defined
+import "regenerator-runtime/runtime";
 
 dotenv.config();
 const app = express();
