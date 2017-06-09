@@ -5,7 +5,7 @@ import "regenerator-runtime/runtime";
 
 dotenv.config();
 const app = express();
-const port = process.env.port || 3000;
+const port = process.env.port || 4000;
 //for cross origin scripting
 app.use(function(req, res, next) {
 	res.header("Access-Control-Allow-Origin", "*");
