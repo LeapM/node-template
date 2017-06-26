@@ -1,5 +1,6 @@
 import express from 'express'
 import dotenv from 'dotenv'
+import bodyParser from 'body-parser'
 //make regenerratorruntime globally defined
 import "regenerator-runtime/runtime";
 
